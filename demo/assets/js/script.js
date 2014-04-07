@@ -4,7 +4,7 @@
     "use strict";
     
     var $circles = $('#circles'),
-        circles = $circles.circles({radius: 150});
+        circles = $circles.circles();
     
     $circles.attr('width', $circles.parent().innerWidth());
     $circles.attr('height', $circles.parent().innerHeight());
