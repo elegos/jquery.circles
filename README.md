@@ -4,6 +4,10 @@ The logic behind the library is that if the script receives a request to write a
 
 ![Circles example](img/example.png)
 
+
+
+Play with the **[live demo](http://giacomofurlan.name/projects/circles/ "jQuery Circles! Live demo")**.
+
 ----------
 
 # Requirements #
