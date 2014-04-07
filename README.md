@@ -2,7 +2,7 @@ jQuery Circles is a jQuery plugin which allows you to easily draw circles on a H
 
 The logic behind the library is that if the script receives a request to write a circle on the same point where another circle already exists, the former becomes a concentric circle of the latter, sharing the same origin coordinates automatically. This produces a visual effect like the following:
 
-![Circles example](//raw.githubusercontent.com/elegos/jquery.circles/master/img/example.png)
+![Circles example](img/example.png)
 
 ----------
 
