@@ -19,6 +19,12 @@ html, body {
     position: absolute;
     opacity: .5;
     padding: 10px;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none; 
 }
 
 #circles {

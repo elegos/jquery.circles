@@ -98,7 +98,7 @@
                 $(objects).each(function () {
                     var attr = this.attributes;
                     // inside another circle
-                    if ((Math.pow((x - attr.coord.x), 2) + Math.pow((y - attr.coord.y), 2)) < Math.pow(radius, 2)) {
+                    if ((Math.pow((x - attr.coord.x), 2) + Math.pow((y - attr.coord.y), 2)) < Math.pow(attr.radius, 2)) {
                         x = attr.coord.x;
                         y = attr.coord.y;
                         excludeColor = attr.color;
@@ -129,7 +129,7 @@
                 
                 context.clearRect(0, 0, container.outerWidth(), container.outerHeight());
                 $(newObjects).each(function () {
-                    addCircle(this.attributes.coord.x, this.attributes.coord.y);
+                    addCircle(this.attributes.coord.x, this.attributes.coord.y, this.attributes.radius);
                 });
             },
             
