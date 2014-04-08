@@ -102,7 +102,7 @@
                         x = attr.coord.x;
                         y = attr.coord.y;
                         excludeColor = attr.color;
-                        radius *= 0.8;
+                        radius = attr.radius * 0.8;
                     }
                 });
                 
