@@ -23,7 +23,7 @@ Play with the **[live demo](http://giacomofurlan.name/projects/circles/ "jQuery 
 1. call the `.circles(options)` method on a canvas element, save the return value in a variable (aka the circles object). `options` is an object with the following structure:
 
 		{
-			circleColors: ['hexcolor1', 'hexcolor2', '#hexcolor3', ...] // the circles' colors
+			circleColors: ['#hexcolor1', '#hexcolor2', '#hexcolor3', ...] // the circles' colors
 			radius: 50 // in pixels
 		}
 
